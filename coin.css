@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #jam-digital{overflow:hidden; width:350px}
+  #hours{float:left; width:100px; height:30px; background-color:black;}
+  #minute{float:left; width:100px; height:30px; background-color:black}
+  #second{float:left; width:100px; height:30px; background-color:black;}
+  #jam-digital p{color:#FFF; font-size:20px; text-align:center; margin-top:4px}
